@@ -29,11 +29,44 @@ public class ShopStepDefinition extends TestBase{
 //		Thread.sleep(5000);
     }
 	
-//	@Then("^user search book by author name$")
-//    public void user_search_book_by_author_name() throws Throwable {
+	@Then("user search book by title name")
+	public void user_search_book_by_title_name() throws Exception {
+	    shopbiskane.UserSeachBookByTitleName();
+	}
+	
+	@When("^user clicks on a BuyNow button$")
+    public void user_clicks_on_a_buynow_button() throws Throwable {
+        shopbiskane.UserClicksOnBuyNowButton();
+    }
+	
+	@Then("user scrolls down to the bottom of the page")
+	public void user_scrolls_down_to_the_bottom_of_the_page() throws Exception {
+	    shopbiskane.UserScrollsToTheBottom();
+	}
+	
+	@Then("^user clicks on the buy now button$")
+    public void user_clicks_on_the_buy_now_button() throws Throwable {
+        shopbiskane.User_clicks_on_buy_now_button();
+    }
+	
+//	@Then("^user clicks on add to cart button$")
+//    public void user_clicks_on_add_to_cart_button() throws Throwable {
+//       shopbiskane.UserClicksOnAddToCart();
+//       Thread.sleep(5000);
 //       
+//	}
+	
+	@Then("^user scrolls up the page$")
+    public void user_scrolls_up_the_page() throws Throwable {
+        shopbiskane.User_scroll_Up();
+        Thread.sleep(5000);
+    }
+	
+//	@When("^user clicks on the cart icon$")
+//    public void user_clicks_on_the_cart_icon() throws Exception {
+//        shopbiskane.UserClicksOnTheCartIcon();
 //    }
 
+	}
 
 
-}
