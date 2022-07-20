@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="38.686">
+<testcase classname="Biskane shop Art feature" name="Shop art by handmade selection" time="38.379">
+<system-out><![CDATA[Given User is on homepage...................................................passed
+When user clicks on the login button........................................passed
+Then user enters email and password.........................................passed
+And user clicks the login button............................................passed
+When user is on home page...................................................passed
+When user hovers on the shop link...........................................passed
+Then user clicks on the Art button..........................................passed
+And user selects the Handmade filter........................................passed
+]]></system-out>
+</testcase>
+</testsuite>

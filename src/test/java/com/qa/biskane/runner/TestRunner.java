@@ -15,7 +15,7 @@ import io.cucumber.junit.CucumberOptions;
 		monochrome = true,
 		dryRun = false,
 		publish = true,
-		tags = "@Artistsignup",
+		tags = "@ShopArt",
 		
 		plugin= {"pretty", "html:target/cucumber.html",
 				"json:target/cucumber.json",
