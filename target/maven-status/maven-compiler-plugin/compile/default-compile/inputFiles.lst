@@ -2,7 +2,11 @@
 /Users/gaganbajwa/eclipse-workspace/com.qa.biskane/src/main/java/com/qa/biskane/PageObject/PO/BiskaneLogin.java
 /Users/gaganbajwa/eclipse-workspace/com.qa.biskane/src/main/java/com/qa/biskane/utils/TestBase.java
 /Users/gaganbajwa/eclipse-workspace/com.qa.biskane/src/main/java/com/qa/biskane/StepDefinition/LoginStepDefinition.java
+/Users/gaganbajwa/eclipse-workspace/com.qa.biskane/src/main/java/com/qa/biskane/StepDefinition/ShopStepDefinition.java
+/Users/gaganbajwa/eclipse-workspace/com.qa.biskane/src/main/java/com/qa/biskane/PageObject/PO/ShopArt.java
 /Users/gaganbajwa/eclipse-workspace/com.qa.biskane/src/main/java/com/qa/biskane/StepDefinition/ArtistSignUpSteps.java
+/Users/gaganbajwa/eclipse-workspace/com.qa.biskane/src/main/java/com/qa/biskane/PageObject/PO/ShopBiskane.java
+/Users/gaganbajwa/eclipse-workspace/com.qa.biskane/src/main/java/com/qa/biskane/StepDefinition/ShopArtStepDefinition.java
 /Users/gaganbajwa/eclipse-workspace/com.qa.biskane/src/main/java/com/qa/biskane/StepDefinition/HomePageStepDefintion.java
 /Users/gaganbajwa/eclipse-workspace/com.qa.biskane/src/main/java/com/qa/biskane/PageObject/PO/ArtistSignUp.java
 /Users/gaganbajwa/eclipse-workspace/com.qa.biskane/src/main/java/com/qa/biskane/PageObject/PO/HomePage.java

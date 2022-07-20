@@ -1,74 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="2" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="6.398">
-    <testcase classname="biskane login feature" name="Verify login feature" time="5.966">
-        <failure message="invalid session id&#10;Build info: version: '4.2.2', revision: '683ccb65d6'&#10;System info: host: 'Gagans-MBP', ip: 'fe80:0:0:0:1c64:bc9a:a90f:eb87%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.5.1', java.version: '17.0.2'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [e70cfe3d418014f79c53461d2a86fc29, findElement {using=xpath, value=//a[@routerlink='/login'][@class='ng-star-inserted']}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.53, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: /var/folders/zf/q9xhmn9j0kg...}, goog:chromeOptions: {debuggerAddress: localhost:52500}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:52500/devtoo..., se:cdpVersion: 103.0.5060.53, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: e70cfe3d418014f79c53461d2a86fc29" type="org.openqa.selenium.NoSuchSessionException"><![CDATA[Given User is on biskane application........................................passed
-When User clicks on the login button........................................failed
-Then user enters "pooja@katchintech.com" and "Cust123"......................skipped
-Then User click on the signinButton.........................................skipped
-
-StackTrace:
-org.openqa.selenium.NoSuchSessionException: invalid session id
-Build info: version: '4.2.2', revision: '683ccb65d6'
-System info: host: 'Gagans-MBP', ip: 'fe80:0:0:0:1c64:bc9a:a90f:eb87%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.5.1', java.version: '17.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [e70cfe3d418014f79c53461d2a86fc29, findElement {using=xpath, value=//a[@routerlink='/login'][@class='ng-star-inserted']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.53, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: /var/folders/zf/q9xhmn9j0kg...}, goog:chromeOptions: {debuggerAddress: localhost:52500}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:52500/devtoo..., se:cdpVersion: 103.0.5060.53, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: e70cfe3d418014f79c53461d2a86fc29
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:588)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:406)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:398)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-	at jdk.proxy2/jdk.proxy2.$Proxy31.click(Unknown Source)
-	at com.qa.biskane.PageObject.PO.BiskaneLogin.UserClicksOnLoginButton(BiskaneLogin.java:26)
-	at com.qa.biskane.StepDefinition.LoginStepDefinition.user_clicks_on_the_login_button(LoginStepDefinition.java:23)
-	at ✽.User clicks on the login button(file:///Users/gaganbajwa/eclipse-workspace/com.qa.biskane/Feature/login.feature:7)
-]]></failure>
-    </testcase>
-    <testcase classname="biskane login feature" name="Verify login feature 2" time="5.963">
-        <failure message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=103.0.5060.53)&#10;Build info: version: '4.2.2', revision: '683ccb65d6'&#10;System info: host: 'Gagans-MBP', ip: 'fe80:0:0:0:1c64:bc9a:a90f:eb87%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.5.1', java.version: '17.0.2'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [e70cfe3d418014f79c53461d2a86fc29, get {url=https://www.biskane.com}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.53, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: /var/folders/zf/q9xhmn9j0kg...}, goog:chromeOptions: {debuggerAddress: localhost:52500}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:52500/devtoo..., se:cdpVersion: 103.0.5060.53, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: e70cfe3d418014f79c53461d2a86fc29" type="org.openqa.selenium.NoSuchWindowException"><![CDATA[Given User is on biskane application........................................skipped
-When User clicks on the login button........................................skipped
-Then user enters "pooja@katchintech.com" and "Cust@123".....................skipped
-Then User click on the signinButton.........................................skipped
-
-StackTrace:
-org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=103.0.5060.53)
-Build info: version: '4.2.2', revision: '683ccb65d6'
-System info: host: 'Gagans-MBP', ip: 'fe80:0:0:0:1c64:bc9a:a90f:eb87%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.5.1', java.version: '17.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [e70cfe3d418014f79c53461d2a86fc29, get {url=https://www.biskane.com}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.53, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: /var/folders/zf/q9xhmn9j0kg...}, goog:chromeOptions: {debuggerAddress: localhost:52500}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:52500/devtoo..., se:cdpVersion: 103.0.5060.53, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: e70cfe3d418014f79c53461d2a86fc29
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:588)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:351)
-	at com.qa.biskane.utils.TestBase.initialization(TestBase.java:46)
-	at biskaneHooks.BiskaneHooks.setUp(BiskaneHooks.java:25)
-]]></failure>
-    </testcase>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="38.686">
+<testcase classname="Biskane shop Art feature" name="Shop art by handmade selection" time="38.379">
+<system-out><![CDATA[Given User is on homepage...................................................passed
+When user clicks on the login button........................................passed
+Then user enters email and password.........................................passed
+And user clicks the login button............................................passed
+When user is on home page...................................................passed
+When user hovers on the shop link...........................................passed
+Then user clicks on the Art button..........................................passed
+And user selects the Handmade filter........................................passed
+]]></system-out>
+</testcase>
 </testsuite>
